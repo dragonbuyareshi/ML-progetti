@@ -102,8 +102,3 @@ Early Stopping: Monitor validation performance and stop training when performanc
 - **Code Documentation**: Comment your code, maintain README files, and document APIs with clear examples.
 - **Decision Rationale**: Record why you chose certain algorithms, preprocessing steps, and hyperparameters.
 - **Reproducibility**: Ensure your results can be reproduced by documenting random seeds, environment specifications (requirements.txt, environment.yml), and data versions.
-## Specialized Considerations by Data Type
-- **For Time Series**: Use time-based features (lags, rolling statistics), respect temporal ordering in splitting, and consider specialized models like ARIMA, LSTM, or Prophet.
-- **For Text Data**: Implement tokenization, handle vocabulary size, consider pre-trained language models, and use appropriate architectures like RNNs or Transformers.
-- **For Image Data**: Use data augmentation extensively, leverage transfer learning from pre-trained CNNs, and consider computational requirements for large images.
-- **For Imbalanced Data**: Focus on appropriate metrics (not accuracy), use resampling or class weights, and consider anomaly detection approaches for extreme imbalance.
